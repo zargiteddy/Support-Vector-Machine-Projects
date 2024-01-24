@@ -7,6 +7,7 @@ Pada ilustrasi di atas, ada dua kelas yang dipisahkan oleh garis hyperplane yait
 
 Prinsip kerja algoritma Support Vector Machine pada dasarnya adalah suatu algoritma yang digunakan untuk klasifikasi data linear, sehingga dalam proses klasifikasi seringkali ditemukan kondisi dimana SVM tidak bekerja dengan baik dalam melakukan klasifikasi pada data non-linear. Masalah tersebut bisa diatasi dengan menggunakan kernel trick. Kernel trick digunakan untuk memetakan data non-linear berdimensi rendah ke dalam ruang dimensi yang lebih tinggi sehingga membuat data terpisah secara linear lalu dapat terbentuk hyperplane yang optimal. Proses klasifikasi dengan SVM dapat dilakukan dengan memilih salah satu di antara 4 kernel yang tersedia yaitu linear, polymonial, RBF, dan sigmoid (Husada & Paramita, 2021). Ilustrasi kernel trick dapat dilihat pada gambar di bawah ini:
 ![image](https://github.com/zargiteddy/Support-Vector-Machine-Projects/assets/72479466/93b92bf6-51d8-4b73-bf44-37cd835bded1)
+
 Pemetaan Input Space Berdimensi Dua dengan Pemetaan ke Dimensi Tinggi (Rahutomo et al., 2018)
 
 Daftar Pustaka:
